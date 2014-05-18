@@ -105,35 +105,24 @@ div {
     border-radius: 5px;
 }
 
+#container {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
 #header {
-    z-index: 1;
-    position: fixed;
     width: 100%;
-    margin-top: -20px;
-    height: 60px;
     background-color: gray;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.left {
-    position: relative;
-    float: left;
-    margin-top: 50px;
-    width: 10%;
-    height: 800px;
-    background-color: gray;
-    margin-bottom: 10px;
+#left {
+    
 }
 
-.right {
-    position: relative;
-    float: right;
-    margin-top: 50px;
-    width: 88%;
-    height: 800px;
-    background-color: silver;
-    margin-bottom: 10px;
+#right {
+    
 }
 
 #footer {
