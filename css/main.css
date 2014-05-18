@@ -165,7 +165,19 @@ div {
 .center {
     text-align: center;
 }
-.center img {
+.card {
+    text-align: center;
+    padding: 25px;
+}
+.card img {
+    width: 100%;
+}
+.small-card {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-card img {
     width: 100%;
 }
 
