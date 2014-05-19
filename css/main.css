@@ -188,6 +188,15 @@ div {
     color: blue;
 }
 
+.white {
+    color: white;
+}
+
+#back a {
+    color: silver;
+    text-decoration: none;
+}
+
 
 /* ==========================================================================
    Helper classes
