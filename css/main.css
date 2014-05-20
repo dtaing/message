@@ -120,6 +120,8 @@ div {
     margin-bottom: 10px;
     text-align: center;
     color: white;
+    font-family: serif;
+    font-size: 18px;
 }
 
 #left {
@@ -133,7 +135,6 @@ div {
 #footer {
     margin-top: 20px;
     height: 50px;
-    background-color: gray;
     clear: both;
     text-align: center;
     font-size: 10px;
