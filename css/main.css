@@ -117,10 +117,9 @@ div {
 }
 
 #header {
-    background-color: gray;
     margin-bottom: 10px;
     text-align: center;
-    color: silver;
+    color: white;
 }
 
 #left {
@@ -132,11 +131,12 @@ div {
 }
 
 #footer {
-    position: relative;
+    margin-top: 20px;
     height: 50px;
-    background-color: white;
+    background-color: gray;
     clear: both;
     text-align: center;
+    font-size: 10px;
 }
 
 .image {
