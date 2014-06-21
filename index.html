@@ -15,11 +15,12 @@
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -44,6 +45,18 @@
 
                     <div class="center">
                         <h2 class="silver">Characters</h2>
+                        <div class="filterOption">
+                            <label class="white">Gender</label><br>
+                            <select name="gender">
+                                <option value="All">All</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <input type="button" value="Filter" onClick="filterCards()" />
+                        </div>
                     </div>
                     
                     <div class="row hidden-xs">
@@ -101,6 +114,15 @@
                         <div class="col-md-2 card">
                             <a href="characters/phantom.html"><img src="img/Phantom.png"/></a>
                         </div>
+                        <div class="col-md-2 card">
+                            <a href="characters/oldgold.html"><img src="img/OldGold.png"/></a>
+                        </div>
+                        <div class="col-md-2 card">
+                            <a href="characters/emeigale.html"><img src="img/EmeiGale.png"/></a>
+                        </div>
+                        <div class="col-md-2 card">
+                            <a href="characters/magnum.html"><img src="img/Magnum.png"/></a>
+                        </div>
                     </div>
 
                     <div class="visible-xs">
@@ -157,6 +179,15 @@
                         </div>
                         <div class="small-card">
                             <a href="characters/phantom.html"><img src="img/Phantom.png"/></a>
+                        </div>
+                        <div class="small-card">
+                            <a href="characters/oldgold.html"><img src="img/OldGold.png"/></a>
+                        </div>
+                        <div class="small-card">
+                            <a href="characters/emeigale.html"><img src="img/EmeiGale.png"/></a>
+                        </div>
+                        <div class="small-card">
+                            <a href="characters/magnum.html"><img src="img/Magnum.png"/></a>
                         </div>
                     </div>
                 </div>
