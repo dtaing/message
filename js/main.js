@@ -1,18 +1,25 @@
 function filterCards() {
 	var genderValue = document.filterForm.gender.value;
+	var concealedValue = document.filterForm.concealed.value;
+
+	RemoveHiddenInContainer("male");
+	RemoveHiddenInContainer("female");
+	RemoveHiddenInContainer("open");
+	RemoveHiddenInContainer("concealed");
 
 	if (genderValue === "male") {
 		AddClassInContainer("female", ' hidden');
-		RemoveHiddenInContainer("male");
-		
-	} else if (genderValue === "female") {
-		AddClassInContainer("male", ' hidden');
-		RemoveHiddenInContainer("female");
-		
-	} else {
-		RemoveHiddenInContainer("male");
-		RemoveHiddenInContainer("female");
 	}
+	if (genderValue === "female") {
+		AddClassInContainer("male", ' hidden');
+	}
+	if (concealedValue === "open") {
+		AddClassInContainer("concealed", ' hidden');
+	}
+	if (concealedValue === "concealed") {
+		AddClassInContainer("open", ' hidden');
+	}
+
 }
 
 function AddClassInContainer(matchClass, content) {
