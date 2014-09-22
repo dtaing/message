@@ -208,7 +208,7 @@ div {
 .filter {
     padding-bottom: 5px;
 }
-
+/*
 input[type='checkbox'] {
     -webkit-appearance:none;
     width:30px;
@@ -216,10 +216,10 @@ input[type='checkbox'] {
     background:white;
     border-radius:5px;
     border:2px solid #555;
-}
+} 
 input[type='checkbox']:checked {
     background: #00bf00;
-}
+}*/
 
 /* ==========================================================================
    Helper classes
